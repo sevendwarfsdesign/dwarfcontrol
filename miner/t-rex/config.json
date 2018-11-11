@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "user": "RF7XnHqbA47ctakMtzKgTFdC5kmDtUqb3k",
+      "url": "stratum+tcp://us.ravenminer.com:6789",
+      "pass": "dwarf4"
+    }
+  ],
+  "api-bind-telnet": "127.0.0.1:4058",
+  "api-bind-http": 0,
+  "json-response": true,
+  "retries": 3,
+  "retry-pause": 10,
+  "timeout": 180,
+  "algo": "x16r",
+  "hashrate-avr": 30,
+  "log-path": "/var/log/miner/t-rex/t-rex.log",
+  "exit-on-cuda-error": true,
+  "exit-on-connection-lost": false,
+  "_notes": "Generated at Fri Oct 26 14:44:12 EDT 2018"
+}

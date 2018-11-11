@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "user": "Sg7VvxAd8rBANoR2ZsoGdBHSdDP1ANGUw9.worker",
+      "url": "stratum+tcp://us.bsod.pw:2460",
+      "pass": "x"
+    }
+  ],
+
+  "api-bind-telnet": "127.0.0.1:4058",
+  "api-bind-http": 0,
+  "json-response": true,
+
+  "retries": 3,
+  "retry-pause": 10,
+  "timeout": 180,
+
+  "algo": "x22i",
+  "hashrate-avr": 30,
+
+  "log-path": "/var/log/miner/zjazz/zjazz.log",
+
+  "exit-on-cuda-error": true,
+  "exit-on-connection-lost": false
+}
